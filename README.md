@@ -160,14 +160,3 @@ pip install numpy scipy matplotlib seaborn
 
 **Aditi Garg**
 
----
-
-## ⭐ Conclusion
-
-This project builds a solid base in **probability and statistics**, which are essential for:
-
-* Data Science
-* Machine Learning
-* Analytics
-
-It combines theory, coding, and real-world examples to make concepts easy to understand and apply.
