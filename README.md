@@ -1,62 +1,173 @@
 # 📊 Probability Distributions Assignment
 
 ## 📌 Overview
-This assignment focuses on understanding **probability distributions and statistical concepts** used in data science and machine learning.  
-It includes practical problems, real-world scenarios, and Python implementations using `scipy.stats`.
+
+This project focuses on understanding **probability distributions, statistical concepts, and their real-world applications** using Python.
+It includes theoretical explanations, practical scenarios, and simulations using libraries like `scipy.stats`.
+
+This assignment is part of **AI/ML coursework** and helps build a strong foundation in statistics required for data science.
 
 ---
 
-## 📁 Files Included
-- `probability_assignment.ipynb` → Notebook with code and visualizations  
-- `Probability_Assignment_Answers.docx` → Detailed explanations and solutions  
+## 📁 Project Structure
+
+```
+.
+├── probability_assignment.ipynb      # Notebook with code, plots, and simulations
+├── Probability_Assignment_Answers.docx  # Detailed written answers
+└── README.md                        # Project documentation
+```
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ Installation & Setup
 
 ### 🔹 Prerequisites
-- Python (3.x)  
-- Jupyter Notebook / VS Code  
 
-Install required libraries:
-bash
+Make sure you have:
+
+* Python 3.x installed
+* Jupyter Notebook or VS Code
+
+---
+
+### 🔹 Install Required Libraries
+
+```bash
 pip install numpy scipy matplotlib seaborn
-🔹 Step 1: Open Notebook
-Open probability_assignment.ipynb in Jupyter Notebook or VS Code
-🔹 Step 2: Run Cells
-Run each cell step-by-step
-Observe outputs, graphs, and probability calculations
-🔹 Step 3: Understand Results
-Check probability values
-Analyze graphs (PDF, CDF, distributions)
-🧠 Concepts Covered
-🔹 1. Probability Distributions
-Poisson Distribution → event counts (e.g., website traffic)
-Binomial Distribution → success/failure problems
-Normal Distribution → real-world continuous data
-🔹 2. Conditional Probability
-Understanding probability with given conditions
-Real-world example: medical testing
-🔹 3. PDF and CDF
-Probability Density Function (PDF)
-Cumulative Distribution Function (CDF)
-🔹 4. Central Limit Theorem (CLT)
-Sample means follow normal distribution
-Important for large datasets and analysis
-🔹 5. Beta Distribution
-Used for probabilities between 0 and 1
-Useful in Bayesian statistics
-🔹 6. Real-World Applications
-Website traffic prediction
-Quality control (defects)
-Delivery time analysis
-Customer arrival patterns
-🔹 7. Simulation Using Python
-Using scipy.stats for probability calculations
-Visualizing distributions
-Simulating CLT
-🎯 Key Learning Outcomes
-Understanding of different probability distributions
-Ability to apply statistics to real-world problems
-Hands-on experience with Python for probability
-Strong foundation for machine learning concepts
+```
+
+---
+
+## ▶️ How to Run
+
+### 🔹 Step 1: Open the Notebook
+
+* Open `probability_assignment.ipynb` using:
+
+  * Jupyter Notebook
+  * OR VS Code (Python extension)
+
+---
+
+### 🔹 Step 2: Run the Code
+
+* Run all cells one by one
+* Observe outputs and graphs
+
+---
+
+### 🔹 Step 3: Analyze Results
+
+* Check probability values
+* Understand distribution graphs
+* Review explanations in the `.docx` file
+
+---
+
+## 🧠 Concepts Covered
+
+### 🔹 1. Probability Distributions
+
+* **Poisson Distribution** → events over time (e.g., website traffic)
+* **Binomial Distribution** → success/failure experiments
+* **Normal Distribution** → continuous real-world data
+
+---
+
+### 🔹 2. Conditional Probability
+
+* Probability under given conditions
+* Example: medical test accuracy
+
+---
+
+### 🔹 3. PDF & CDF
+
+* PDF (Probability Density Function)
+* CDF (Cumulative Distribution Function)
+
+---
+
+### 🔹 4. Central Limit Theorem (CLT)
+
+* Sample means follow a normal distribution
+* Important for statistical inference and A/B testing
+
+---
+
+### 🔹 5. Beta Distribution
+
+* Used for modeling probabilities (0 to 1)
+* Applied in Bayesian inference
+
+---
+
+### 🔹 6. Real-World Case Studies
+
+* Website traffic prediction
+* Quality control in manufacturing
+* Delivery time analysis
+* Customer arrival modeling
+
+---
+
+### 🔹 7. Python Implementation
+
+* Using `scipy.stats` for probability calculations
+* Simulating distributions
+* Visualizing results using graphs
+
+---
+
+## 📊 Key Highlights
+
+* Applied theory to real-world problems
+* Used Python for simulation and visualization
+* Demonstrated Central Limit Theorem practically
+* Explored Bayesian thinking using Beta distribution
+
+---
+
+## 🎯 Learning Outcomes
+
+* Strong understanding of probability distributions
+* Ability to apply statistics in real scenarios
+* Hands-on experience with Python libraries
+* Foundation for machine learning and data science
+
+---
+
+## 🧪 Example Topics Covered
+
+* Probability of rare events (Poisson)
+* Defect analysis (Binomial)
+* Time-based analysis (Normal distribution)
+* Bayesian updates (Beta distribution)
+* CLT simulation and validation
+
+---
+
+## 🚀 Future Improvements
+
+* Add interactive visualizations
+* Extend to real datasets
+* Integrate with machine learning models
+
+---
+
+## 👩‍💻 Author
+
+**Aditi Garg**
+
+---
+
+## ⭐ Conclusion
+
+This project builds a solid base in **probability and statistics**, which are essential for:
+
+* Data Science
+* Machine Learning
+* Analytics
+
+It combines theory, coding, and real-world examples to make concepts easy to understand and apply.
